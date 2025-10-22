@@ -22,6 +22,3 @@ We’re focusing on building core features like:
 
 ---
 
-## 🧩 Setup Instructions
-```bash
-
