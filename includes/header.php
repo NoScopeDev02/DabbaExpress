@@ -16,14 +16,14 @@
     
     <style>
         :root {
-            --primary-gradient: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 50%, #FFA500 100%);
-            --secondary-gradient: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
-            --accent-gradient: linear-gradient(135deg, #F093FB 0%, #F5576C 100%);
-            --dark-primary: #1a1a2e;
-            --dark-secondary: #16213e;
-            --light-cream: #fff8f0;
-            --success-color: #06d6a0;
-            --warning-color: #FFD93D;
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            --secondary-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --accent-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            --dark-primary: #2c3e50;
+            --dark-secondary: #34495e;
+            --light-cream: #f0f4ff;
+            --success-color: #2ecc71;
+            --warning-color: #f39c12;
         }
         
         * {
@@ -34,7 +34,7 @@
         
         body#dabbaexpress-body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #fff5f0 0%, #ffe8d6 50%, #ffd8b8 100%);
+            background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 50%, #b8e5f5 100%);
             min-height: 100vh;
             overflow-x: hidden;
             position: relative;
@@ -77,8 +77,8 @@
         /* Navigation Bar */
         nav.navbar#main-navigation-bar {
             background: var(--primary-gradient) !important;
-            box-shadow: 0 8px 32px rgba(255, 107, 107, 0.4);
-            border-bottom: 4px solid var(--warning-color);
+            box-shadow: 0 8px 32px rgba(102, 126, 234, 0.4);
+            border-bottom: 4px solid #f39c12;
             padding: 1rem 0;
             position: relative;
             z-index: 1000;
@@ -177,26 +177,26 @@
         }
         
         .brand-badge#express-badge {
-            background: linear-gradient(135deg, #FFD93D 0%, #FF6B6B 100%);
-            color: #1a1a2e;
+            background: linear-gradient(135deg, #fee140 0%, #fa709a 100%);
+            color: #2c3e50;
             padding: 0.35rem 1rem;
             border-radius: 25px;
             font-size: 0.7rem;
             font-weight: 700;
             margin-top: 0.25rem;
             animation: badge-glow 2.5s ease-in-out infinite;
-            box-shadow: 0 4px 15px rgba(255, 217, 61, 0.5);
+            box-shadow: 0 4px 15px rgba(250, 112, 154, 0.5);
             text-transform: uppercase;
             letter-spacing: 1px;
         }
         
         @keyframes badge-glow {
             0%, 100% { 
-                box-shadow: 0 4px 15px rgba(255, 217, 61, 0.5);
+                box-shadow: 0 4px 15px rgba(250, 112, 154, 0.5);
                 transform: scale(1);
             }
             50% { 
-                box-shadow: 0 6px 25px rgba(255, 217, 61, 0.8), 0 0 35px rgba(255, 217, 61, 0.4);
+                box-shadow: 0 6px 25px rgba(250, 112, 154, 0.8), 0 0 35px rgba(254, 225, 64, 0.4);
                 transform: scale(1.05);
             }
         }
@@ -310,15 +310,15 @@
         }
         
         span.cart-count#shopping-cart-badge {
-            background: linear-gradient(135deg, #FFD93D 0%, #FF6B6B 100%);
-            color: #1a1a2e;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
             border-radius: 50%;
             padding: 0.35rem 0.7rem;
             font-size: 0.75rem;
             font-weight: 800;
             margin-left: 0.5rem;
             animation: cart-pulse 1.8s infinite;
-            box-shadow: 0 3px 10px rgba(255, 217, 61, 0.6);
+            box-shadow: 0 3px 10px rgba(79, 172, 254, 0.6);
             display: inline-block;
             min-width: 28px;
             text-align: center;
@@ -607,8 +607,8 @@
                     </li>
                     <li class="nav-item" id="nav-item-cart">
                         <a class="nav-link position-relative" href="/cart.php" id="nav-link-cart">
-                            🛒 Cart
-                            <span class="cart-count" id="shopping-cart-badge">3</span>
+                            🛒 
+                           
                         </a>
                     </li>
                 </ul>
@@ -647,17 +647,7 @@
         </div>
     </nav>
 
-    <!-- Main Content Container -->
-    <main id="main-content" class="container-fluid">
-        <div class="demo-content" id="demo-section">
-            <h1 class="demo-title" id="demo-heading">Welcome to DabbaExpress! 🍱</h1>
-            <p class="demo-text" id="demo-paragraph">
-                Your trusted tiffin marketplace connecting customers with authentic home-cooked meals from local vendors. 
-                Experience the taste of home, delivered fresh to your doorstep every day. Join thousands of satisfied customers 
-                who trust DabbaExpress for delicious, healthy, and affordable meals
-            </p>
-        </div>
-    </main>
+   
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
