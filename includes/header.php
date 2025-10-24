@@ -654,7 +654,7 @@
             <p class="demo-text" id="demo-paragraph">
                 Your trusted tiffin marketplace connecting customers with authentic home-cooked meals from local vendors. 
                 Experience the taste of home, delivered fresh to your doorstep every day. Join thousands of satisfied customers 
-                who trust DabbaExpress for delicious, healthy, and affordable meals!
+                who trust DabbaExpress for delicious, healthy, and affordable meals
             </p>
         </div>
     </main>
