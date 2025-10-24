@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🥡 DabbaExpress
 
 **DabbaExpress** is a platform designed to help bachelors and working professionals easily find and connect with nearby **tiffin and mess services**.  
@@ -22,3 +23,8 @@ We’re focusing on building core features like:
 
 ---
 
+=======
+# FILE: README.md
+# Tiffin Marketplace - Project Documentation
+# Placeholder for project documentation and setup instructions
+>>>>>>> e849c07 (initial commit)
