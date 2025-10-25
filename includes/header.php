@@ -594,13 +594,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto" id="primary-nav-menu">
                     <li class="nav-item" id="nav-item-home">
-                        <a class="nav-link" href="/" id="nav-link-home">Home</a>
+                        <a class="nav-link" href="index.php" id="nav-link-home">Home</a>
                     </li>
                     <li class="nav-item" id="nav-item-vendors">
                         <a class="nav-link" href="/pages/vendors.php" id="nav-link-vendors">Vendors</a>
                     </li>
                     <li class="nav-item" id="nav-item-about">
-                        <a class="nav-link" href="/pages/about.php" id="nav-link-about">About</a>
+                        <a class="nav-link" href="pages/about.php" id="nav-link-about">About</a>
                     </li>
                     <li class="nav-item" id="nav-item-contact">
                         <a class="nav-link" href="/pages/contact.php" id="nav-link-contact">Contact</a>
